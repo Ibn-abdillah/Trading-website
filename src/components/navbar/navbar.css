@@ -1,0 +1,21 @@
+.navbar{
+    padding: 1rem 3rem;
+}
+
+.navbar h1{
+    color: blue;
+}
+
+span{
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 90%;
+    margin: 0 auto 10px;
+}
+
+
