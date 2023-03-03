@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import Content from './components/content/content';
+import Coin from './components/coin/coin';
 import Navbar from './components/navbar/navbar';
-
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Content />
+      <Coin />
     </div>
   );
 }

@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react';
 
 import CoinCard from './coincard';
 
-import './content.css';
+import './coin.css';
 
-function Content() {
+function Coin() {
     const [data, setData] = useState([])
     const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false"
   
@@ -30,4 +30,4 @@ function Content() {
   )
 }
 
-export default Content
+export default Coin

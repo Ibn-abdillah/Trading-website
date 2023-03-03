@@ -3,7 +3,6 @@ import './navbar.css'
 import { FaCoins } from 'react-icons/fa'
 
 function Navbar() {
-  
   return (
     <div className='navbar'>
        <h1><FaCoins /><span>Coins</span>Search</h1>
